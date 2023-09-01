@@ -11,12 +11,12 @@ export default function Statistics({ good, neutral, bad, total, positivePercenta
         <li className={styles.item}>Neutral: {neutral}</li>
         <li className={styles.item}>Bad: {bad}</li>
         <li className={styles.item}>Total: {total}</li>
-        <li className={styles.item}>Positive feedback: { isNaN(positivePercentage)? 0: `${Math.round(positivePercentage)}%` }</li>
+          <li className={styles.item}>Positive feedback: {isNaN(positivePercentage) ? 0 :
+            `${Math.round(positivePercentage)}%`}</li>
       </ul>
     </div>
   );
 }
-
 
 Statistics.propTypes = {
     good: PropTypes.number.isRequired,

@@ -1,5 +1,6 @@
 .title,
 .description {
-    margin-bottom: 10px;
-};
-
+  color: #0004ff;
+  padding: 2px;
+  margin-bottom: 20px;
+}

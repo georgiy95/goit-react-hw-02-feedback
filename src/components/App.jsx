@@ -31,11 +31,8 @@ class App extends React.Component {
       <div
         style={{
           display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
           fontSize: 25,
           color: '#010101',
-          padding: 25,
         }}
       >
         <div className={styles.feedback}>
@@ -61,7 +58,7 @@ class App extends React.Component {
               />
             </Section>
           )}
-        </div>
+            </div>
       </div>
     );
   }
