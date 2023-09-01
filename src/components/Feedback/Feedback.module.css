@@ -2,14 +2,12 @@
   border-radius: 10px;
   border: 3px solid #0004ff;
 }
-
 .wrapper {
   display: flex;
   gap: 61px;
   align-items: center;
   justify-content: space-around;
 }
-
 .button {
   background: #0004ff;
   border: 1px solid rgba(5, 5, 5, 0.2);
@@ -21,7 +19,6 @@
   padding-right: 10px;
   text-transform: capitalize;
 }
-
 .button:hover {
   background-color: #fff;
   color: #0004ff;
