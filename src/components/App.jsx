@@ -11,8 +11,8 @@ class App extends Component{
   bad: 0
   }
   
-  updateFeedback = evt => {
-    const option = evt.target.textContent;
+  updateFeedback = option => {
+     
     this.setState(prev => { return { [option]: prev[option] + 1 } } )
   }
   
