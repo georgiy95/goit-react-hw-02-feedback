@@ -26,7 +26,6 @@ class App extends React.Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-
     return (
       <div
         style={{
