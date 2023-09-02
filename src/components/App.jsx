@@ -42,22 +42,19 @@ class App extends React.Component {
               onLeavefeedback={this.onLeaveFeedback}
             />
           </Section>
-
+          <Section>
           {this.countTotalFeedback() === 0 ? (
-            <Section>
-              <Notification message="There is no feedback" />
-            </Section>
+            <Notification message="There is no feedback" />
           ) : (
-            <Section>
-              <Statistics
-                good={good}
-                neutral={neutral}
-                bad={bad}
-                total={this.countTotalFeedback()}
-                positivePercentage={this.countPositiveFeedbackPercentage()}
-              />
-            </Section>
+            <Statistics
+              good={good}
+              neutral={neutral}
+              bad={bad}
+              total={this.countTotalFeedback()}
+              positivePercentage={this.countPositiveFeedbackPercentage()}
+            />
           )}
+        </Section>
             </div>
       </div>
     );
